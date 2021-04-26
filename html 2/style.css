@@ -1,0 +1,51 @@
+
+h1{
+    color:aqua;
+    border:solid;
+}
+
+.header{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.allgames{
+    background-color:antiquewhite;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+
+h2,p{
+    text-align: center;
+}
+
+body{
+    background-color: aquamarine;
+}
+a:link{
+    color:#00ffff
+}
+a:visited{
+    color:#0000ff
+}
+.game{
+    position:relative;
+}
+.game p{
+    position: absolute;
+    top:40%;
+    left:40%;
+    opacity:0;
+}
+.game:hover img{
+    opacity:0.3;
+}
+.game:hover p{
+    opacity:1;
+}
